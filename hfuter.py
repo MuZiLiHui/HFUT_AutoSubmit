@@ -307,7 +307,7 @@ def main():
         requests.post(env_dist['sckey']+'&text=自动打卡成功'+output_data)
         #requests.post('https://sctapi.ftqq.com/'+env_dist['sckey']+'.send?text=自动打卡成功'+output_data)
     else:
-        requests.post(env_dist['sckey']+'&text=自动打卡成功'+output_data)
+        requests.post(env_dist['sckey']+'&text=自动打卡失败'+output_data)
        #requests.post('https://sctapi.ftqq.com/'+env_dist['sckey']+'.send?text=自动打开失败'+output_data)
 
 if __name__ == "__main__":
